@@ -19,3 +19,5 @@ docker run --name my-mongodb-v0.1 -p 27017:27017 -v $PWD/db:/data/db -d mongo --
 #... }
 #... )
 
+#mongo -u username -p helloworld --authenticationDatabase dbname
+
